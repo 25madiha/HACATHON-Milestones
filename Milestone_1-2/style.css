@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Georgia,Arial, Helvetica, sans-serif;
+    background-color: rgb(175, 182, 219);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.resume {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgb(221, 206, 219);
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10 );
+}
+
+h2 {
+    color: hsl(0, 0%, 1%);
+}
+
+.profile-picture {
+    width: 100px;
+
+    
+}
+
+#toggleskillsbtn {
+    margin-top: 0 auto;
+    padding: 10px 20px;
+    background-color: #3373b8;
+    color: rgb(45, 69, 148);
+    border: none;
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #6984a1;
+}

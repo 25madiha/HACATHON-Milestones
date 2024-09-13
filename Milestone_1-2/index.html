@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume with TypeScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume">
+        <!-- Personal Information -->
+        <section id="personal-info">
+
+            <h2>Personal Information</h2>
+            <img src="profile.pic.jpg" alt="profile picture" width="100px ">
+            
+            <p><strong>Name:</strong>Madiha khan</p>
+            <p><strong>Email:</strong> khattakhan1995@gmail.com </p>
+            <p><strong>Phone:</strong>03361887391</p>
+        </section>
+
+        <!-- Education -->
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>I.COM </strong>, from premiere college</li>
+                <li><strong>Matriculation</strong>,from The learning circle International school</li>
+                <li><strong>Eligible for IT quarter 2</strong> from governnor sindh initiative</li>
+            </ul>
+        </section>
+
+        <!-- Skills -->
+        <div id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>HTML & CSS</li>
+                
+    
+            </ul>
+            
+        </div>
+
+
+    
+
+        <!-- Work Experience -->
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>software Developer learning</strong>,(2024 - learning)</li>
+                
+            </ul>
+        </section>
+    </div>
+    <!--Toggle Button-->
+    <div class="Togglecontainer">
+        <input type="button"value="hide skills" id="Togglebutton" class="Togglebutton" onclick="toggleSkills()">
+        
+    </div>
+
+    <script src="app.js" ></script>
+</body>
+</html>
